@@ -1,5 +1,6 @@
 TARGET: exe
 
+#dhf
 exe:Test.o mylibsum.a
 	g++  Test.o -o exe -L . mylibsum.a -lm
 
